@@ -1,0 +1,56 @@
+/*----about------*/
+.about__wrapper {
+    background: url("imgs/about_back.png") no-repeat;
+    background-size: cover;
+    height: 660px;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.about__wrapper .block__h2 {
+    color: #FFFFFF;
+    padding: 90px 0 0 0;
+}
+
+.about__wrapper .block__h2_hr {
+    border: 1px solid #FFFFFF;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.about__p {
+    font-family: ZonaProRegular, sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 50px;
+    width: 57%;
+    opacity: 0.85;
+    margin-bottom: 46px;
+}
+
+.about__ul {
+    margin-left: 20px;
+}
+
+.about__h5 {
+    font-family: ZonaProBold, sans-serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.about__li {
+    list-style-type: disc;
+    font-family: ZonaProRegular, sans-serif;
+    opacity: 0.85;
+    margin-bottom: 15px;
+}
+
+.about__li > span {
+    font-family: ZonaProBold, sans-serif;
+}
+
+/*-----end about-----*/

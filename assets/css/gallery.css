@@ -1,0 +1,14 @@
+/*---gallery_----*/
+
+.gallery-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery__img {
+    width: 278px;
+    height: 290px;
+    padding-right: 30px;
+}
+
+/*---end gallery----*/

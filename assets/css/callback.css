@@ -1,0 +1,95 @@
+/*-----callback-----*/
+
+.callback {
+    width: 100%;
+}
+
+.callback__h4 {
+    font-family: ZonaProRegular, sans-serif;
+    font-size: 26px;
+    color: #1A1A1A;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.callback__tels {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: ZonaProBold, sans-serif;
+    font-size: 16px;
+    margin-left: 31px;
+}
+
+.callback__tels > a {
+    color: #1A1A1A;
+    margin-left: 5px;
+    margin-right: 50px;
+}
+
+.callback__form-wrapper {
+    background-color: #FFFFFF;
+    height: 257px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+.callback__form-wrapper_h4 {
+    font-family: ZonaProBold, sans-serif;
+    font-size: 26px;
+    color: #1A1A1A;
+    padding: 50px 0 30px;
+    text-align: center;
+}
+
+.callback__form-wrapper_p {
+    font-family: ZonaProRegular, sans-serif;
+    font-size: 18px;
+    color: #91969A;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.callback__form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.callback__form-input {
+    border: 2px solid rgba(26, 26, 26, 0.15);
+    width: 238px;
+    height: 45px;
+    padding-left: 15px;
+    margin-right: 20px;
+    outline: none;
+}
+
+.callback__form-input::placeholder {
+    font-family: ZonaProRegular, sans-serif;
+    font-size: 14px;
+    color: #1A1A1A;
+    opacity: 0.5;
+}
+
+.callback__form-button {
+    cursor: pointer;
+    font-family: PoppinsSemiBold, sans-serif;
+    font-size: 16px;
+    width: 220px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    box-shadow: 0 7px 20px rgba(26, 26, 26, 0.35);
+}
+
+/*----end-callback-----*/

@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+}
+
+footer * {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background: linear-gradient(
+            90deg,
+            #114368 0%,
+            #1a5784 45.77%,
+            #1a5784 102.19%
+    );
+    font-family: ZonaPro, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+}
+
+footer h2 {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+footer h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 35px;
+}
+
+footer ul {
+    font-size: 16px;
+    line-height: 19px;
+    list-style: none;
+}
+
+.footer_svg {
+    position: relative;
+    display: inline-block;
+}
+
+.footer_svg .tube {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+
+.footer_number {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    margin-top: 7.5%;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer_req > p {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.footer-content > div {
+    flex: 1;
+    width: 100%;
+}
+
+.footer {
+    background: #1a1a1a;
+    color: white;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-family: ZonaPro, sans-serif;
+}
+
+/*.marks > ul {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+
+/*.marks > ul > li {*/
+/*    background: #C4C4C4;*/
+/*    margin-right: 10px;*/
+/*    margin-bottom: 10px;*/
+/*    font-family: ZonaPro, sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: normal;*/
+/*    font-size: 10px;*/
+/*    line-height: 11px;*/
+/*    padding: 4px 17px 4px 27px;*/
+/*    color: black;*/
+/*}*/
+
+
+.footer__title {
+    width: 100%;
+    font-family: ZonaPro, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    color: #FFFFFF;
+    padding-top: 90px;
+    margin-bottom: 35px;
+}
+
+
+.block__h3 {
+    font-family: ZonaPro, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+}
+
+.wrapper__tels {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.wrapper__tel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.wrapper__tel > img {
+    margin-right: 15px;
+}
+
+.wrapper__tel > a {
+    font-family: ZonaProRegular, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.tel__wrapper-white {
+    width: 32px;
+    height: 32px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+
+.footer__operating-mode {
+    font-family: ZonaProRegular, sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.footer__operating-mode > ul > li {
+    line-height: 19px;
+}
+
+/*       footer__marks-link        */
+
+.marks {
+    margin-bottom: 90px;
+}
+
+.footer__marks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__marks-link {
+    height: 19px;
+    margin: 0 15px 20px 0;
+    font-family: ZonaProRegular, sans-serif;
+    font-size: 9px;
+    line-height: 11px;
+    color: #1A1A1A;
+    padding: 4px 17px 4px 27px;
+}
+/*     end  footer__marks-link        */

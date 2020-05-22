@@ -1,0 +1,66 @@
+/*-----start services-----*/
+.services__wrapper {
+    background: url("./imgs/polygons_one.png") no-repeat top right;
+    height: 1406px;
+}
+
+.services {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.services__item {
+    width: 380px;
+    height: 171px;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: ZonaProRegular, sans-serif;
+    color: #1A1A1A;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+}
+
+.services__item:hover, .services__item:focus {
+    background-color: #297EBD;
+    cursor: pointer;
+    color: #FFFFFF;
+    box-shadow: 0 4px 30px rgba(41, 126, 189, 0.5);
+}
+
+.services__item_img {
+    background-repeat: no-repeat;
+    display: block; /* Рисунок как блочный элемент */
+    height: 70px;
+}
+
+/*.services__item_img-diamond {*/
+/*    width: 63px; !* Ширина рисунка в пикселах *!*/
+/*    background-position: -63px 0; !* Смещение фона *!*/
+/*    background-image: url("/imgs/icons/diamond.png");*/
+/*}*/
+
+/*.services__item_img-diamond-drilling {*/
+/*    width: 56px; !* Ширина рисунка в пикселах *!*/
+/*    background-position: -56px 0; !* Смещение фона *!*/
+/*    background-image: url("./imgs/icons/drilling.png");*/
+/*}*/
+
+/*.services__item_img-sandblast {*/
+/*    width: 30px; !* Ширина рисунка в пикселах *!*/
+/*    background-position: -30px 0; !* Смещение фона *!*/
+/*    background-image: url("./imgs/icons/hydro.png");*/
+/*}*/
+
+.services__item:hover > .services__item_img {
+    background-position: 0 0; /* Смещение фона */
+}
+
+
+/*-----end services-----*/

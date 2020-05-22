@@ -1,0 +1,394 @@
+/*head.css*/
+/*services.css*/
+
+/*calculate.css*/
+
+
+/*about.css*/
+/*how-to-work.css*/
+/*callback.css*/
+/*form.css*/
+/*gallery.css*/
+/*our_works.css*/
+/*map.css*/
+/*css/bread-crumb.css*/
+/*    diamond-drilling.css*/
+/*    css/completed.css*/
+/*        completed-page.css*/
+/*        photo-gallery.css*/
+/*        about-page.css*/
+/*        error.css*/
+
+
+
+
+
+/*--head---*/
+
+.head__wrapper {
+    /*background: url("../imgs/main_background.png") no-repeat;*/
+    background-size: cover;
+    height: 660px;
+    width: 100%;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.head__title {
+    font-size: 65px;
+    font-family: ZonaProRegular, sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 206px;
+}
+
+.head__link {
+    font-family: PoppinsSemiBold, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 61px;
+    background-color: #297EBD;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 33px;
+    outline: none;
+    box-shadow: 0px 7px 20px rgba(41, 126, 189, 0.5);
+}
+
+/*------end head--------*/
+
+/*-----start services-----*/
+.services__wrapper {
+    height: 1406px;
+}
+
+.services {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.services__item {
+    width: 380px;
+    height: 171px;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: ZonaProRegular, sans-serif;
+    color: #1A1A1A;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+}
+
+.services__item:hover, .services__item:focus {
+    background-color: #297EBD;
+    cursor: pointer;
+    color: #FFFFFF;
+    box-shadow: 0 4px 30px rgba(41, 126, 189, 0.5);
+}
+
+.services__item_img {
+    background-repeat: no-repeat;
+    display: block; /* Рисунок как блочный элемент */
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+/*.services__item_img-diamond {*/
+/*    width: 63px; !* Ширина рисунка в пикселах *!*/
+/*    background-position: -63px 0; !* Смещение фона *!*/
+/*    background-image: url("../imgs/icons/diamond.png");*/
+/*}*/
+
+/*.services__item_img-diamond-drilling {*/
+/*    width: 56px; !* Ширина рисунка в пикселах *!*/
+/*    background-position: -56px 0; !* Смещение фона *!*/
+/*    background-image: url("../imgs/icons/drilling.png");*/
+/*}*/
+
+/*.services__item_img-sandblast {*/
+/*    width: 30px; !* Ширина рисунка в пикселах *!*/
+/*    background-position: -30px 0; !* Смещение фона *!*/
+/*    background-image: url("../imgs/icons/hydro.png");*/
+/*}*/
+
+.services__item:hover > .services__item_img {
+    background-position: 0 0 !important; /* Смещение фона */
+}
+
+/*-----end services-----*/
+
+
+/*----about------*/
+.about__wrapper {
+    /*background: url("../imgs/about_back.png") no-repeat;*/
+    background-size: cover;
+    height: 660px;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.about__wrapper .block__h2 {
+    color: #FFFFFF;
+    padding: 90px 0 0 0;
+}
+
+.about__wrapper .block__h2_hr {
+    border: 1px solid #FFFFFF;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.about__p {
+    font-family: ZonaProRegular, sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 50px;
+    width: 57%;
+    opacity: 0.85;
+    margin-bottom: 46px;
+}
+
+.about__ul {
+    margin-left: 20px;
+}
+
+.about__h5 {
+    font-family: ZonaProBold, sans-serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.about__li {
+    list-style-type: disc;
+    font-family: ZonaProRegular, sans-serif;
+    opacity: 0.85;
+    margin-bottom: 15px;
+}
+
+.about__li > span {
+    font-family: ZonaProBold, sans-serif;
+}
+
+/*-----end about-----*/
+
+/*-----how-to-work-----*/
+.how-to-work {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.how-to-work__p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.how-to-work__p:after {
+
+}
+
+.how-to-work__stage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.how-to-work__stage > img:before {
+    content: '1';
+
+}
+
+.how-to-work__stage_number {
+    font-family: ZonaProBold, sans-serif;
+    color: rgba(0, 0, 0, 0.1);
+    font-size: 75px;
+    line-height: 88px;
+    position: absolute;
+    left: 20px;
+}
+
+.how-to-work__stage_p {
+    font-family: ZonaProBold, sans-serif;
+    color: #1A1A1A;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+}
+
+/*-----end how-to-work-----*/
+/*-----callback-----*/
+
+.callback {
+    width: 100%;
+}
+
+.callback__h4 {
+    font-family: ZonaProRegular, sans-serif;
+    font-size: 26px;
+    color: #1A1A1A;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.callback__tels {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: ZonaProBold, sans-serif;
+    font-size: 16px;
+    margin-left: 31px;
+}
+
+.callback__tels > a {
+    color: #1A1A1A;
+    margin-left: 5px;
+    margin-right: 50px;
+}
+
+.callback__form-wrapper {
+    background-color: #FFFFFF;
+    height: 257px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+.callback__form-wrapper_h4 {
+    font-family: ZonaProBold, sans-serif;
+    font-size: 26px;
+    color: #1A1A1A;
+    padding: 50px 0 30px;
+    text-align: center;
+}
+
+.callback__form-wrapper_p {
+    font-family: ZonaProRegular, sans-serif;
+    font-size: 18px;
+    color: #91969A;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.callback__form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.callback__form-input {
+    border: 2px solid rgba(26, 26, 26, 0.15);
+    width: 238px;
+    height: 45px;
+    padding-left: 15px;
+    margin-right: 20px;
+    outline: none;
+}
+
+.callback__form-input::placeholder {
+    font-family: ZonaProRegular, sans-serif;
+    font-size: 14px;
+    color: #1A1A1A;
+    opacity: 0.5;
+}
+
+.callback__form-button {
+    cursor: pointer;
+    font-family: PoppinsSemiBold, sans-serif;
+    font-size: 16px;
+    width: 220px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    box-shadow: 0 7px 20px rgba(26, 26, 26, 0.35);
+}
+
+/*----end-callback-----*/
+/*---form----*/
+
+
+
+/*--end-form----*/
+/*---gallery_----*/
+
+.gallery-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery__img {
+    width: 278px;
+    height: 290px;
+    padding-right: 30px;
+}
+
+/*---end gallery----*/
+/*--- our_works----*/
+
+
+/*---end our_works----*/
+/*--- map----*/
+
+
+/*---end map----*/
+
+/*---------------------------other------------------------------*/
+/*--- bread-crumb----*/
+
+
+/*---end bread-crumb----*/
+/*--- diamond-drilling----*/
+
+
+/*---end diamond-drilling----*/
+/*--- completed----*/
+
+
+/*---end completed----*/
+/*--- completed-page----*/
+
+
+/*---end completed-page----*/
+/*--- photo-gallery----*/
+
+
+/*---end photo-gallery----*/
+/*--- about-page----*/
+
+
+/*---end about-page----*/
+/*--- error----*/
+
+
+/*---end error----*/
+
+
+
